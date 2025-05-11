@@ -1,0 +1,443 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      
+
+       
+  
+  
+  
+}
+.section-one{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin: 20px;
+}
+.section-one__name,.section-one__role{
+    padding: 10px;
+}
+
+.section-one__contact{
+   background-color: orangered;
+   color: white;
+   text-decoration: none;
+   margin-left: 10px;
+   padding: 5px;
+   
+}
+a:hover{
+    background-color: white ;
+    color:black;
+    
+}
+.section-two, .section-two__title, .section-two__disc{
+    padding: 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.section-three,.section-three__title ,.section-three__disc{
+    padding: 10px;
+}
+.section-four, .section-four__title, .section-four__disc{
+    padding: 10px;  
+}
+.section-three li , .section-three li{
+    list-style: none;
+}
+.section-three{
+    background-color: blueviolet;
+    display: inline-block;
+    color:black ;
+    padding: 20px;
+    vertical-align: top;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.section-four{
+    background-color: orangered;
+    display:inline-block;
+    vertical-align: top;
+    
+    padding: 20px;
+    height: 200px;
+    border-radius: 5px;
+}
+.section-five{
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+.section-five__title a{
+    color: skyblue;
+}
+.section-five__disc{
+    padding-top: 5px;
+}
+.contact-form{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact-form__input, .contact-form__textarea, .contact-form__submit{
+    margin-top: 20px;
+}
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__textarea{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+.contact-form__submit{
+    padding: 10px;
+    border: none;
+    background-color:orangered;
+    color: black;
+    
+}
+
+.section-six{
+    /* From Uiverse.io by Codecite */ 
+.btn {
+    --fancy-button-gradient-0: #8d49fd;
+    --fancy-button-gradient-50: #7f56f3;
+    --fancy-button-gradient-100: #5691f3;
+    --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);
+    --fancy-button-inner-shadow-top-lg: rgba(9, 12, 60, 0.1);
+    --fancy-button-inner-shadow-bottom: rgba(137, 222, 246, 0.3);
+    --fancy-button-shine-top: #e9d1ff;
+    --fancy-button-shine-bottom: #adfff9;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin: 0;
+    appearance: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 25px;
+    color: #fff;
+    background-image: linear-gradient(
+      to bottom,
+      var(--fancy-button-gradient-0) 0%,
+      var(--fancy-button-gradient-50) 50%,
+      var(--fancy-button-gradient-100) 100%
+    );
+    box-shadow:
+      0px 4px 12px rgba(9, 12, 60, 0.15),
+      0px 2px 8px rgba(9, 12, 60, 0.15),
+      0px 1px 3px var(--fancy-button-inner-shadow-top-lg),
+      inset 0px 1px 1px var(--fancy-button-inner-shadow-top),
+      inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
+  }
+  
+  .btn:before,
+  .btn:after {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    will-change: transform;
+  }
+  
+  .btn:before {
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--fancy-button-shine-top);
+    width: 96px;
+    height: 6px;
+    top: -3px;
+    opacity: 0.6;
+    filter: blur(6px);
+    transition: opacity 0.25s;
+  }
+  
+  .btn:after {
+    inset: 0;
+    background-size: cover;
+    z-index: 2;
+    opacity: 0.3;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+  
+  .btn span {
+    display: block;
+    padding: 12px 24px;
+    border-radius: inherit;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(
+      to bottom,
+      var(--fancy-button-shine-top),
+      transparent 8px
+    );
+    background-position: 0 -6px;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  
+  .btn span:before,
+  .btn span:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: var(--fancy-button-shine-bottom);
+    transition:
+      opacity 0.25s,
+      transform 0.25s;
+    will-change: transform;
+  }
+  
+  .btn span:before {
+    width: 92px;
+    height: 8px;
+    bottom: -4px;
+    opacity: 0.75;
+    filter: blur(6px);
+  }
+  
+  .btn span:after {
+    width: 112px;
+    height: 1px;
+    bottom: 0;
+    opacity: 0.9;
+    filter: blur(1px);
+  }
+  
+  .btn:hover span:before {
+    opacity: 0.8;
+  }
+  
+  .btn:hover span:before {
+    transform: translateX(-50%) scale(1.25);
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+  }
+  
+}
+
+/* From Uiverse.io by Nawsome */ 
+.boxes {
+    --size: 32px;
+    --duration: 800ms;
+    height: calc(var(--size) * 2);
+    width: calc(var(--size) * 3);
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+    margin-top: calc(var(--size) * 1.5 * -1);
+    transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);
+  }
+  
+  .boxes .box {
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform-style: preserve-3d;
+  }
+  
+  .boxes .box:nth-child(1) {
+    transform: translate(100%, 0);
+    -webkit-animation: box1 var(--duration) linear infinite;
+    animation: box1 var(--duration) linear infinite;
+  }
+  
+  .boxes .box:nth-child(2) {
+    transform: translate(0, 100%);
+    -webkit-animation: box2 var(--duration) linear infinite;
+    animation: box2 var(--duration) linear infinite;
+  }
+  
+  .boxes .box:nth-child(3) {
+    transform: translate(100%, 100%);
+    -webkit-animation: box3 var(--duration) linear infinite;
+    animation: box3 var(--duration) linear infinite;
+  }
+  
+  .boxes .box:nth-child(4) {
+    transform: translate(200%, 0);
+    -webkit-animation: box4 var(--duration) linear infinite;
+    animation: box4 var(--duration) linear infinite;
+  }
+  
+  .boxes .box > div {
+    --background: #5C8DF6;
+    --top: auto;
+    --right: auto;
+    --bottom: auto;
+    --left: auto;
+    --translateZ: calc(var(--size) / 2);
+    --rotateY: 0deg;
+    --rotateX: 0deg;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    top: var(--top);
+    right: var(--right);
+    bottom: var(--bottom);
+    left: var(--left);
+    transform: rotateY(var(--rotateY)) rotateX(var(--rotateX)) translateZ(var(--translateZ));
+  }
+  
+  .boxes .box > div:nth-child(1) {
+    --top: 0;
+    --left: 0;
+  }
+  
+  .boxes .box > div:nth-child(2) {
+    --background: #145af2;
+    --right: 0;
+    --rotateY: 90deg;
+  }
+  
+  .boxes .box > div:nth-child(3) {
+    --background: #447cf5;
+    --rotateX: -90deg;
+  }
+  
+  .boxes .box > div:nth-child(4) {
+    --background: #DBE3F4;
+    --top: 0;
+    --left: 0;
+    --translateZ: calc(var(--size) * 3 * -1);
+  }
+  
+  @-webkit-keyframes box1 {
+    0%, 50% {
+      transform: translate(100%, 0);
+    }
+  
+    100% {
+      transform: translate(200%, 0);
+    }
+  }
+  
+  @keyframes box1 {
+    0%, 50% {
+      transform: translate(100%, 0);
+    }
+  
+    100% {
+      transform: translate(200%, 0);
+    }
+  }
+  
+  @-webkit-keyframes box2 {
+    0% {
+      transform: translate(0, 100%);
+    }
+  
+    50% {
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      transform: translate(100%, 0);
+    }
+  }
+  
+  @keyframes box2 {
+    0% {
+      transform: translate(0, 100%);
+    }
+  
+    50% {
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      transform: translate(100%, 0);
+    }
+  }
+  
+  @-webkit-keyframes box3 {
+    0%, 50% {
+      transform: translate(100%, 100%);
+    }
+  
+    100% {
+      transform: translate(0, 100%);
+    }
+  }
+  
+  @keyframes box3 {
+    0%, 50% {
+      transform: translate(100%, 100%);
+    }
+  
+    100% {
+      transform: translate(0, 100%);
+    }
+  }
+  
+  @-webkit-keyframes box4 {
+    0% {
+      transform: translate(200%, 0);
+    }
+  
+    50% {
+      transform: translate(200%, 100%);
+    }
+  
+    100% {
+      transform: translate(100%, 100%);
+    }
+  }
+  
+  @keyframes box4 {
+    0% {
+      transform: translate(200%, 0);
+    }
+  
+    50% {
+      transform: translate(200%, 100%);
+    }
+  
+    100% {
+      transform: translate(100%, 100%);
+    }
+
+  }
+  .boxes{
+    margin-top: 100px;
+    margin-left: 700px;
+
+  }
