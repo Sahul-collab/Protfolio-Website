@@ -49,8 +49,8 @@ Technologies Used:
 If you'd like to connect or collaborate, feel free to reach out:
 
 - Email: sahulsyed2002@gmail.com
-- LinkedIn: [Your LinkedIn](#)
-- GitHub: [Sahul_collab](#)
+ 
+- GitHub: [Sahul_collab]
 
 ---
 
